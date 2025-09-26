@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chub.ai 体验复刻</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0a0a;
+            color: white;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border-bottom: 1px solid #333;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .search {
+            flex: 1;
+            padding: 10px;
+            background: #333;
+            border: none;
+            color: white;
+            margin: 0 20px;
+        }
+        .main {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            padding: 20px;
+            background: #1a1a1a;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .character-card {
+            background: #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            float: left;
+            margin-right: 20px;
+        }
+        .stats {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+            font-size: 0.8em;
+            color: #ccc;
+        }
+        .description {
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+        .definition {
+            background: #333;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-size: 0.9em;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #1a1a1a;
+            border-top: 1px solid #333;
+        }
+        .footer a {
+            color: #ccc;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="#">商标</a>
+            <a href="#">寻找</a>
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+        <input type="text" class="search" placeholder="搜索角色...">
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <h3>预览</h3>
+            <p>1.7k 586 3.5k</p>
+            <p>14k 496k</p>
+            <h3>相关角色</h3>
+            <ul>
+                <li>Triple A Adventuring Agency</li>
+                <li>乌利亚莎</li>
+                <li>吉尔·瓦伦丁</li>
+                <!-- 更多 -->
+            </ul>
+        </div>
+        <div class="content">
+            <div class="character-card">
+                <img src="placeholder-avatar.jpg" alt="角色头像" class="avatar">
+                <h1>现代生活角色扮演游戏</h1>
+                <div class="stats">
+                    <span>角色扮演游戏</span>
+                    <span>雄</span>
+                    <span>英语</span>
+                    <span>女性</span>
+                    <span>人</span>
+                </div>
+                <p>一个现代世界的角色扮演游戏，任何事情都有可能发生，你可以成为世界上最富有的男人/女人，或者拥有自己的商店/企业。你可能是一个连环杀手。任何你下定决心的事情都是可能的。</p>
+                <p>这是我的第一个角色，所以请和我一起裸露。如果您不喜欢这一代，您可以重新生成它或将其编辑成您喜欢的方式。</p>
+                <div class="definition">
+                    <h3>定义</h3>
+                    <p>NSFW、暴力和血腥行为是允许和鼓励的...（总共 1840 个代币）</p>
+                </div>
+                <h3>第一条消息</h3>
+                <p>[在我们开始之前，请填写下面的空白...]</p>
+                <h3>示例对话</h3>
+                <p>这座城市到处都是高楼大厦... [END_OF_DIALOG]</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">文档</a>
+        <a href="#">红迪特</a>
+        <a href="#">蓝天</a>
+        <a href="#">GitHub</a>
+        <a href="#">博客</a>
+        <a href="#">反馈与想法</a>
+        <a href="#">系统状态</a>
+        <a href="#">职业发展</a>
+        <a href="#">隐私政策</a>
+        <a href="#">服务条款</a>
+    </div>
+</body>
+</html>
